@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A6A82C219BAC8BC002DAAB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6A82C119BAC8BC002DAAB4 /* Foundation.framework */; };
+		8A6A82C419BAC8BC002DAAB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6A82C319BAC8BC002DAAB4 /* CoreGraphics.framework */; };
+		8A6A82C619BAC8BC002DAAB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6A82C519BAC8BC002DAAB4 /* UIKit.framework */; };
+		8A6A82CC19BAC8BC002DAAB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A6A82CA19BAC8BC002DAAB4 /* InfoPlist.strings */; };
+		8A6A82CE19BAC8BC002DAAB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6A82CD19BAC8BC002DAAB4 /* main.m */; };
+		8A6A82D219BAC8BC002DAAB4 /* ASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6A82D119BAC8BC002DAAB4 /* ASAppDelegate.m */; };
+		8A6A82D419BAC8BC002DAAB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6A82D319BAC8BC002DAAB4 /* Images.xcassets */; };
+		8A6A82DB19BAC8BD002DAAB4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6A82DA19BAC8BD002DAAB4 /* XCTest.framework */; };
+		8A6A82DC19BAC8BD002DAAB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6A82C119BAC8BC002DAAB4 /* Foundation.framework */; };
+		8A6A82DD19BAC8BD002DAAB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6A82C519BAC8BC002DAAB4 /* UIKit.framework */; };
+		8A6A82E519BAC8BD002DAAB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A6A82E319BAC8BD002DAAB4 /* InfoPlist.strings */; };
+		8A6A82E719BAC8BD002DAAB4 /* Android_StreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6A82E619BAC8BD002DAAB4 /* Android_StreamTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A6A82DE19BAC8BD002DAAB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A6A82B619BAC8BC002DAAB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6A82BD19BAC8BC002DAAB4;
+			remoteInfo = "Android Stream";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A6A82BE19BAC8BC002DAAB4 /* Android Stream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Android Stream.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6A82C119BAC8BC002DAAB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A6A82C319BAC8BC002DAAB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A6A82C519BAC8BC002DAAB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A6A82C919BAC8BC002DAAB4 /* Android Stream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Android Stream-Info.plist"; sourceTree = "<group>"; };
+		8A6A82CB19BAC8BC002DAAB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A6A82CD19BAC8BC002DAAB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A6A82CF19BAC8BC002DAAB4 /* Android Stream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Android Stream-Prefix.pch"; sourceTree = "<group>"; };
+		8A6A82D019BAC8BC002DAAB4 /* ASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAppDelegate.h; sourceTree = "<group>"; };
+		8A6A82D119BAC8BC002DAAB4 /* ASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAppDelegate.m; sourceTree = "<group>"; };
+		8A6A82D319BAC8BC002DAAB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8A6A82D919BAC8BD002DAAB4 /* Android StreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Android StreamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6A82DA19BAC8BD002DAAB4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8A6A82E219BAC8BD002DAAB4 /* Android StreamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Android StreamTests-Info.plist"; sourceTree = "<group>"; };
+		8A6A82E419BAC8BD002DAAB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A6A82E619BAC8BD002DAAB4 /* Android_StreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Android_StreamTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A6A82BB19BAC8BC002DAAB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6A82C419BAC8BC002DAAB4 /* CoreGraphics.framework in Frameworks */,
+				8A6A82C619BAC8BC002DAAB4 /* UIKit.framework in Frameworks */,
+				8A6A82C219BAC8BC002DAAB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6A82D619BAC8BD002DAAB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6A82DB19BAC8BD002DAAB4 /* XCTest.framework in Frameworks */,
+				8A6A82DD19BAC8BD002DAAB4 /* UIKit.framework in Frameworks */,
+				8A6A82DC19BAC8BD002DAAB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A6A82B519BAC8BC002DAAB4 = {
+			isa = PBXGroup;
+			children = (
+				8A6A82C719BAC8BC002DAAB4 /* Android Stream */,
+				8A6A82E019BAC8BD002DAAB4 /* Android StreamTests */,
+				8A6A82C019BAC8BC002DAAB4 /* Frameworks */,
+				8A6A82BF19BAC8BC002DAAB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A6A82BF19BAC8BC002DAAB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A6A82BE19BAC8BC002DAAB4 /* Android Stream.app */,
+				8A6A82D919BAC8BD002DAAB4 /* Android StreamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A6A82C019BAC8BC002DAAB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A6A82C119BAC8BC002DAAB4 /* Foundation.framework */,
+				8A6A82C319BAC8BC002DAAB4 /* CoreGraphics.framework */,
+				8A6A82C519BAC8BC002DAAB4 /* UIKit.framework */,
+				8A6A82DA19BAC8BD002DAAB4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A6A82C719BAC8BC002DAAB4 /* Android Stream */ = {
+			isa = PBXGroup;
+			children = (
+				8A6A82D019BAC8BC002DAAB4 /* ASAppDelegate.h */,
+				8A6A82D119BAC8BC002DAAB4 /* ASAppDelegate.m */,
+				8A6A82D319BAC8BC002DAAB4 /* Images.xcassets */,
+				8A6A82C819BAC8BC002DAAB4 /* Supporting Files */,
+			);
+			path = "Android Stream";
+			sourceTree = "<group>";
+		};
+		8A6A82C819BAC8BC002DAAB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A6A82C919BAC8BC002DAAB4 /* Android Stream-Info.plist */,
+				8A6A82CA19BAC8BC002DAAB4 /* InfoPlist.strings */,
+				8A6A82CD19BAC8BC002DAAB4 /* main.m */,
+				8A6A82CF19BAC8BC002DAAB4 /* Android Stream-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A6A82E019BAC8BD002DAAB4 /* Android StreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6A82E619BAC8BD002DAAB4 /* Android_StreamTests.m */,
+				8A6A82E119BAC8BD002DAAB4 /* Supporting Files */,
+			);
+			path = "Android StreamTests";
+			sourceTree = "<group>";
+		};
+		8A6A82E119BAC8BD002DAAB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A6A82E219BAC8BD002DAAB4 /* Android StreamTests-Info.plist */,
+				8A6A82E319BAC8BD002DAAB4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A6A82BD19BAC8BC002DAAB4 /* Android Stream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6A82EA19BAC8BD002DAAB4 /* Build configuration list for PBXNativeTarget "Android Stream" */;
+			buildPhases = (
+				8A6A82BA19BAC8BC002DAAB4 /* Sources */,
+				8A6A82BB19BAC8BC002DAAB4 /* Frameworks */,
+				8A6A82BC19BAC8BC002DAAB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Android Stream";
+			productName = "Android Stream";
+			productReference = 8A6A82BE19BAC8BC002DAAB4 /* Android Stream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A6A82D819BAC8BD002DAAB4 /* Android StreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6A82ED19BAC8BD002DAAB4 /* Build configuration list for PBXNativeTarget "Android StreamTests" */;
+			buildPhases = (
+				8A6A82D519BAC8BD002DAAB4 /* Sources */,
+				8A6A82D619BAC8BD002DAAB4 /* Frameworks */,
+				8A6A82D719BAC8BD002DAAB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A6A82DF19BAC8BD002DAAB4 /* PBXTargetDependency */,
+			);
+			name = "Android StreamTests";
+			productName = "Android StreamTests";
+			productReference = 8A6A82D919BAC8BD002DAAB4 /* Android StreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A6A82B619BAC8BC002DAAB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hackers;
+				TargetAttributes = {
+					8A6A82D819BAC8BD002DAAB4 = {
+						TestTargetID = 8A6A82BD19BAC8BC002DAAB4;
+					};
+				};
+			};
+			buildConfigurationList = 8A6A82B919BAC8BC002DAAB4 /* Build configuration list for PBXProject "Android Stream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A6A82B519BAC8BC002DAAB4;
+			productRefGroup = 8A6A82BF19BAC8BC002DAAB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A6A82BD19BAC8BC002DAAB4 /* Android Stream */,
+				8A6A82D819BAC8BD002DAAB4 /* Android StreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A6A82BC19BAC8BC002DAAB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6A82CC19BAC8BC002DAAB4 /* InfoPlist.strings in Resources */,
+				8A6A82D419BAC8BC002DAAB4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6A82D719BAC8BD002DAAB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6A82E519BAC8BD002DAAB4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A6A82BA19BAC8BC002DAAB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6A82D219BAC8BC002DAAB4 /* ASAppDelegate.m in Sources */,
+				8A6A82CE19BAC8BC002DAAB4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6A82D519BAC8BD002DAAB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6A82E719BAC8BD002DAAB4 /* Android_StreamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A6A82DF19BAC8BD002DAAB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6A82BD19BAC8BC002DAAB4 /* Android Stream */;
+			targetProxy = 8A6A82DE19BAC8BD002DAAB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A6A82CA19BAC8BC002DAAB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6A82CB19BAC8BC002DAAB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A6A82E319BAC8BD002DAAB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6A82E419BAC8BD002DAAB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A6A82E819BAC8BD002DAAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A6A82E919BAC8BD002DAAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A6A82EB19BAC8BD002DAAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Android Stream/Android Stream-Prefix.pch";
+				INFOPLIST_FILE = "Android Stream/Android Stream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A6A82EC19BAC8BD002DAAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Android Stream/Android Stream-Prefix.pch";
+				INFOPLIST_FILE = "Android Stream/Android Stream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8A6A82EE19BAC8BD002DAAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Android Stream.app/Android Stream";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Android Stream/Android Stream-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Android StreamTests/Android StreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8A6A82EF19BAC8BD002DAAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Android Stream.app/Android Stream";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Android Stream/Android Stream-Prefix.pch";
+				INFOPLIST_FILE = "Android StreamTests/Android StreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A6A82B919BAC8BC002DAAB4 /* Build configuration list for PBXProject "Android Stream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6A82E819BAC8BD002DAAB4 /* Debug */,
+				8A6A82E919BAC8BD002DAAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6A82EA19BAC8BD002DAAB4 /* Build configuration list for PBXNativeTarget "Android Stream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6A82EB19BAC8BD002DAAB4 /* Debug */,
+				8A6A82EC19BAC8BD002DAAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A6A82ED19BAC8BD002DAAB4 /* Build configuration list for PBXNativeTarget "Android StreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6A82EE19BAC8BD002DAAB4 /* Debug */,
+				8A6A82EF19BAC8BD002DAAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A6A82B619BAC8BC002DAAB4 /* Project object */;
+}
