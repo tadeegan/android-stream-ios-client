@@ -7,6 +7,8 @@
 //
 
 #import "ASAppDelegate.h"
+#import "ASStreamPlayerController.h"
+#import "ASMainViewController.h"
 
 @implementation ASAppDelegate
 
@@ -16,6 +18,11 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [self.window setRootViewController:({
+        ASMainViewController * viewController = [[ASMainViewController alloc] init];
+        viewController;
+    })];
     return YES;
 }
 
