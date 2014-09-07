@@ -15,7 +15,7 @@ static const NSInteger touchPort = 8002;
 static const NSInteger imagePort = 5000;
 
 //static const NSString *baseURL = @"http://192.168.1.2"; netgear
-static const NSString *baseURL = @"http://32.2.69.118"; //mwireless
+static const NSString *baseURL = @"http://35.2.69.118"; //mwireless
 
 
 typedef NS_ENUM(NSInteger, PushType) {
@@ -94,13 +94,13 @@ typedef NS_ENUM(NSInteger, PushType) {
     }
     NSString *xString = [NSString stringWithFormat:@"%@",@(x)];
     NSString *yString = [NSString stringWithFormat:@"%@",@(y)];
-    NSString *address = [NSString stringWithFormat:@"%@:%@/",baseURL,@(touchPort)];
+    NSString *address = [NSString stringWithFormat:@"%@:%@",baseURL,@(touchPort)];
     NSString *enquiryurl = [NSString stringWithFormat:@"%@?hi=%@&foo=%@&bar=%@",address,updateString,xString,yString];
     
     NSLog(@"%@",enquiryurl);
     
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[enquiryurl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]];
-    NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request  delegate:self];
+    NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
