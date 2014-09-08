@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Android Stream-CocoaAsyncSocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Android Stream.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>280507CBAF114A7D929699ED</key>
+		<key>46FB38C75DA54EBEAC61B9B9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5C8CF1C9BBC240579F2A5284</key>
+		<key>69EA5EBE649E4F5B9464255A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D06873E665041279BB0EE9A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

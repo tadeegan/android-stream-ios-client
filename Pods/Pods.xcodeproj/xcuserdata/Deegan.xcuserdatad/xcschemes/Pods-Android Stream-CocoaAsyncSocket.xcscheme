@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "69EA5EBE649E4F5B9464255A"
-               BuildableName = "libPods-Android Stream.a"
-               BlueprintName = "Pods-Android Stream"
+               BlueprintIdentifier = "46FB38C75DA54EBEAC61B9B9"
+               BuildableName = "libPods-Android Stream-CocoaAsyncSocket.a"
+               BlueprintName = "Pods-Android Stream-CocoaAsyncSocket"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

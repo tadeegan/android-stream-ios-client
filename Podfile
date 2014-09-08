@@ -3,6 +3,7 @@
 
 target "Android Stream" do
     pod 'AFNetworking', '~> 2.0'
+    pod 'CocoaAsyncSocket'
 end
 
 target "Android StreamTests" do

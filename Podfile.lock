@@ -20,11 +20,14 @@ PODS:
   - AFNetworking/UIKit (2.4.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.3.5)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
+  - CocoaAsyncSocket
 
 SPEC CHECKSUMS:
   AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  CocoaAsyncSocket: 45bdbbc1c0a5ed0640ff4c42af325ba43a2f099a
 
 COCOAPODS: 0.32.1

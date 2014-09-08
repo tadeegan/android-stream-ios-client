@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "280507CBAF114A7D929699ED"
+               BlueprintIdentifier = "8D06873E665041279BB0EE9A"
                BuildableName = "libPods-Android Stream-AFNetworking.a"
                BlueprintName = "Pods-Android Stream-AFNetworking"
                ReferencedContainer = "container:Pods.xcodeproj">
